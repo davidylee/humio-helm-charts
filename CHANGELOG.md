@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.8.30
+- cd980e2 Add containerd changes, use non-oss metricbeat 8.3.2 image
+
 ## 0.8.29
 - be02d71 Add extraVolumes and extraVolumeMounts to fluent-bit
 
