@@ -1,4 +1,4 @@
-image: fluent/fluent-bit:1.6.10
+image: fluent/fluent-bit:1.9.4
 imagePullPolicy: Always
 imagePullSecrets: []
 
@@ -68,6 +68,7 @@ filterConfig: |-
       Merge_Log_Key       log_processed
       K8S-Logging.Parser  On
       K8S-Logging.Exclude On
+      Cache_Use_Docker_Id On
 
 outputConfig: |-
   [OUTPUT]
